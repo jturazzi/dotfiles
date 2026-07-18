@@ -2,7 +2,7 @@
 
 Mes fichiers de configuration pour zsh + oh-my-zsh + powerlevel10k.
 
-## Contenu
+## 📂 Contenu
 
 | Fichier           | Rôle                                                        |
 |-------------------|-------------------------------------------------------------|
@@ -13,7 +13,7 @@ Mes fichiers de configuration pour zsh + oh-my-zsh + powerlevel10k.
 | `.gitconfig`      | Config git (signature des commits en SSH)                   |
 | `selected_editor` | Éditeur par défaut (utilisé par `select-editor`)            |
 
-## Installation
+## ⚡ Installation
 
 ```bash
 git clone https://github.com/jturazzi/dotfiles.git ~/dotfiles
@@ -36,10 +36,10 @@ Pense ensuite à définir zsh comme shell par défaut si besoin :
 chsh -s $(command -v zsh)
 ```
 
-## Mise à jour
+## 🔄 Mise à jour
 
 Une fois installé, la fonction `update-terminal` (dans `.functions`) fait un `git pull` du dépôt et recharge le shell.
 
-## Licence
+## 📄 Licence
 
 [MIT](LICENSE)
