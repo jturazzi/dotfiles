@@ -27,7 +27,8 @@ Le script :
 2. installe oh-my-zsh si absent ;
 3. installe les plugins (`zsh-autosuggestions`, `zsh-syntax-highlighting`) et le thème `powerlevel10k` ;
 4. crée des liens symboliques vers `$HOME` pour chaque fichier suivi (les fichiers existants sont sauvegardés dans `~/.dotfiles_backup/`) ;
-5. génère une clé de signature git ed25519 (`~/.ssh/id_ed25519`) si elle n'existe pas encore, et affiche la clé publique à ajouter sur GitHub (Settings > SSH and GPG keys > New SSH key, type "Signing Key").
+5. installe les polices MesloLGS NF dans `~/.local/share/fonts` (si un dossier `fonts/` est présent dans le dépôt) ;
+6. génère une clé de signature git ed25519 (`~/.ssh/id_ed25519`) si elle n'existe pas encore, et affiche la clé publique à ajouter sur GitHub (Settings > SSH and GPG keys > New SSH key, type "Signing Key").
 
 Pense ensuite à définir zsh comme shell par défaut si besoin :
 
