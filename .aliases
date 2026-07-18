@@ -1,0 +1,82 @@
+# 18/07/26
+
+# CLEAR
+alias c='clear'
+
+# CHMOD
+alias chmod='chmod --preserve-root'
+
+# CHOWN
+alias chown='chown --preserve-root'
+
+# CP
+alias cp='cp -irv'
+
+# CD
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# CRON
+alias cron='crontab -e'
+
+# DF
+alias df='df -h'
+
+# DU
+alias du='du -ch'
+
+# GREP
+alias grep='grep --color=auto'
+
+# HISTORY
+alias h='history'
+
+# LN
+alias symbolic='sudo ln -s'
+
+# LS
+alias l='ls -Fhl'
+alias ll='ls -aFhl'
+alias ls='ls --color=auto'
+alias sl='ls'
+
+# MKDIR
+alias mkdir='mkdir -pv'
+
+# MV
+alias mv='mv -iv'
+
+# NETWORK
+alias ipa="hostname -I"
+alias ports='nmap localhost'
+
+# NANO
+alias nano='nano -cm'
+
+# PATH
+alias path='echo -e ${PATH//:/\\n}'
+
+# PING
+alias ping='sudo ping -c 4'
+alias pinga='sudo ping'
+
+# REBOOT
+alias reboot='sudo /sbin/reboot'
+
+# RM
+alias rm='rm -i --preserve-root'
+alias rmr='rm -ir --preserve-root'
+
+# SHUTDOWN
+alias shutdown='sudo /sbin/shutdown'
+
+# SU
+alias su='sudo -i'
+alias root='sudo -i'
+
+# SYSTEM
+alias cpu='lscpu'
+alias ram='free -lmt'
+
+# WGET
+alias wget='wget -c'
