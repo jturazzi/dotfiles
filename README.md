@@ -16,7 +16,7 @@ Mes fichiers de configuration pour zsh + oh-my-zsh + powerlevel10k.
 ## Installation
 
 ```bash
-git clone git@github.com:jturazzi/dotfiles.git ~/dotfiles
+git clone https://github.com/jturazzi/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
